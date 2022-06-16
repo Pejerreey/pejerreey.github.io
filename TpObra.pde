@@ -21,7 +21,7 @@ GestorSenial gestorPitch;
 OscP5 osc;
 
 int img = 54;
-int img2 = 4;
+int img2 = 2;
 PImage [] imagenes = new PImage [img];
 PImage [] imagenes2 = new PImage [img];
 
