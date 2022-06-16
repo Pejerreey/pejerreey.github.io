@@ -43,13 +43,6 @@ for (int i=0; i<img2; i++) {
     imagenes2[i] = loadImage("fondoA"+pos+".png");
   }
   
-  /*
-  for (int i=0; i<img; i++) {
-    int pos= i +1;
-    
-   
-    imagenes3[i] = loadImage("trazoB"+pos+".png");
-  } */
   
   for (int i=0; i<img; i++) {
     int pos= i +1;
@@ -62,36 +55,16 @@ for (int i=0; i<img2; i++) {
 
   misTrazos = new ArrayList<Trazos>() ;
   
-  /*
-  misTrazos2 = new ArrayList<Trazos2>() ;
-  misTrazos3 = new ArrayList<Trazos3>() ;// inicializo en arraylist
-  */
                             
   
   // --- hago un ciclo for para cargar cada uno de los trazos en el arraylist
 
   for( int i=0; i<img; i++){
      
-    Trazos esteTrazo = new Trazos(imagenes[i],y + 20*i, x-(1440)); // el 25 es el espacio en y entre trazos
+    Trazos esteTrazo = new Trazos(imagenes[i],y + 18*i, x-(1440)); // el 25 es el espacio en y entre trazos
     misTrazos.add(esteTrazo);
   }
-  
-  /*
-  for( int i=0; i<img; i++){
-     
-    Trazos2 esteTrazo2 = new Trazos2(imagenes[i],y+350+20*i, x-960); // el 25 es el espacio en y entre trazos
-    misTrazos2.add(esteTrazo2);
-  }
-  
-  for( int i=0; i<img; i++){
-    
-    Trazos3 esteTrazo3 = new Trazos3(imagenes[i],y + 700+20*i, x); // el 25 es el espacio en y entre trazos
-    misTrazos3.add(esteTrazo3);
-  }
-  */
-  
-  
-  
+   
   
   velocidad = 1;
 }
@@ -109,68 +82,19 @@ gestorAmp.actualizar(amp);
   
   /////////////////////////
  xF = xF + vel;
+ tint(255,255);
   image(imagenes2[0],xF,0,2880,1080);
   if(xF > 0){
   xF = xF - vel;}
   
   tint(amp*3,pitch*3);
-  image(imagenes2[1],350,500,139,175);
+  image(imagenes2[1],400,200,539,675);
   
-   image(imagenes2[1],750,200,139,175);
-   
-    image(imagenes2[1],150,700,139,175);
-    
-    image(imagenes2[2],550,300,150,305);
-    
-    image(imagenes2[3],width/2,height/2,160,220);
-    
-    image(imagenes2[3],900,800,160,220);
-    
-    image(imagenes2[1],150,200,139,175);
-    
-    image(imagenes2[2],1050,200,150,305);
-    
-    image(imagenes2[3],400,100,160,220);
-    
-    image(imagenes2[2],0,0,150,305);
-    
-    image(imagenes2[2],60,900,150,305);
-    
-    
-   image(imagenes2[3],600,800,160,220);
-   
-   image(imagenes2[1],1200,30,139,175);
-   
-   image(imagenes2[3],1000,600,160,220);
+ 
 
 /////////////////////////////////////////////
 
 
- 
-
- 
-
-
-// --- Función para recorrer y dibujar todos los trazos que están en el arrayList
- 
-
-  
-  /*
-  for(Trazos2 t2 : misTrazos2){
-  
-    t2.draw_();
-    j = j+1;
-  }
-  
-  
- 
-  for(Trazos3 t3 : misTrazos3){
-  
-    t3.draw_();
-
-    j = j+1;
-  }
-  */
   tint(255,255);
   for(Trazos t : misTrazos){
     
@@ -186,21 +110,21 @@ gestorAmp.actualizar(amp);
   
 // FIN --- Función para recorrer y dibujar todos los trazos que están en el arrayList
 
- // Trazo.draw_();
+
 
 
 for( int i=0; i<cantidadDeTrazos; i++){
   
   
   if (amp > 42) {
-    //Trazo.x = Trazo.x - velocidad/6;
+
     
     Trazos t = misTrazos.get(i);
     t.x = t.x - velocidad+(i*random(0.1,0.5));
 
   }
   if (amp > 70) {
-    //Trazo.x = Trazo.x - velocidad/6;
+
     
     Trazos t = misTrazos.get(i);
     t.x = t.x + (velocidad-(i*random(0.5,1)));
@@ -208,38 +132,7 @@ for( int i=0; i<cantidadDeTrazos; i++){
   }
   
     //-----------------------------------//
-    
-    /* if (miVelocidadYDireccion.direccionX() > 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos2 t2 = misTrazos2.get(i);
-    t2.x = t2.x + (velocidad+2) / +(i*0.2);
-
-  }
-  if (miVelocidadYDireccion.direccionX() < 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos2 t2 = misTrazos2.get(i);
-    t2.x = t2.x - (velocidad+2)/ -(i*0.2);
-
-  }/*
-  //-----------------------------------//
-  /*
-  if (miVelocidadYDireccion.direccionX() > 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos3 t3 = misTrazos3.get(i);
-    t3.x = t3.x + velocidad+i/2;
-
-  }
-  if (miVelocidadYDireccion.direccionX() < 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos3 t3 = misTrazos3.get(i);
-    t3.x = t3.x - velocidad+i/2;
-
-  }
-  */
+  
   //-----------------------------------//
   
   
@@ -259,39 +152,7 @@ for( int i=0; i<cantidadDeTrazos; i++){
   }
   
   //-----------------------------------//
-  /*
-  if (miVelocidadYDireccion.direccionY() < 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos2 t2 = misTrazos2.get(i);
-    t2.y = t2.y - (velocidad+1);
-
-  }
-  if (miVelocidadYDireccion.direccionY() > 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos2 t2 = misTrazos2.get(i);
-    t2.y = t2.y + velocidad+1;
-
-  }
-  */
-  //-----------------------------------//
-  /*
-  if (miVelocidadYDireccion.direccionY() < 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos3 t3 = misTrazos3.get(i);
-    t3.y = t3.y + velocidad-(i/3);
-
-  }
-  if (miVelocidadYDireccion.direccionY() > 0) {
-    //Trazo.x = Trazo.x - velocidad/6;
-    
-    Trazos3 t3 = misTrazos3.get(i);
-    t3.y = t3.y - velocidad+(i/3);
-
-  }*/
-  //-----------------------------------//
+  
   //-----------------------------------//
   
   
