@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index3.css">
+    <script src="../js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- TITULO PAGINA/ESTADO ACTUAL-->
+
+    <title>El impacto de comercio justo</title>
+</head>
+
+<!-- TITULO -->
+<div class="row">
+<h1 class="col-12" id="imperioFairtrade" style="font-weight:700;font-size: 64px; text-align: center;">IMPACTO DEL COMERCIO JUSTO</h1>
+</div>
+<div class="comercioJusto">
+
+  <img src="../img/fairtrade2.svg" alt="">
+  <h2>¿Qué es Comercio Justo?</h2>
+</div>
+<div class="centrado">
+  <h2 style="font-weight:100; margin-left: 10%; width: 80%; text-align: center;">Un movimiento que promueve mejores precios, condiciones de trabajo
+     decentes y un trato más justo para los agricultores 
+     y trabajadores en los países en desarrollo.</h2>
+    </div>
+
+
+</div>
+<body>
+    <div class="container">
+      <div id="menuOpciones" class="row">
+    <div class="pagina2"> 
+      <div class="col-3">
+      <div class="opciones">    
+          <img src="../img/Imperio1.svg" width="225" height="225" alt="">
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="opciones">
+        <a href="../pantallas/ImperioTrabajadores.html"><img src="../img/Imperio3.svg" width="225" height="225" alt=""></a>
+        </div>
+      </div>
+      
+      <div class="col-3">
+          <div class="opciones">
+          <a href="ImperioProduccion.html"><img src="../img/Imperio2.svg" width="225" height="225" alt=""></a>
+        </div>
+      </div>
+
+        <div class="col-3">
+        <div class="opciones">
+          <a href="ImperioCompra.html"><img src="../img/Imperio4.svg" width="225" height="225" alt=""></a>
+        </div></div>
+          
+      </div>
+    </div>
+
+
+    <!-------------------------------------Informacion abajo------------------------------------------->
+
+    <div class="row">
+      <div class="col-12">
+      <div class="comercioPregunta1" style="text-align: center; display:block; color: #7A480D;">
+        <img src="../img/LineaSeparadora.svg" alt=""> <h3 style="font-size: 36px;">¿Que beneficios trae?</h3> 
+      </div>
+    </div>
+  </div>
+      
+<div class="row" >
+  <div class="col-8">
+      <div class="comercioPregunta2">
+        <img src="../img/info1.svg" alt="">
+        <div class="row">  <!-- DIVS PARA PONER LAS IMAGENES DE IZQ A DER: DESARROLLO SOSTENIBLE-->
+         <img id="opcionesComercio1" onclick="openDSpop()" src="../img/DS.png" alt="">
+         <img id="opcionesComercio2" onclick="openDSpop2()" src="../img/DS2.png" alt="">
+         <img id="opcionesComercio3" onclick="openDSpop3()" src="../img/DS3.png" alt="">
+         <img id="opcionesComercio4" onclick="openDSpop4()" src="../img/DS4.png" alt="">
+
+
+         <div id="popDS0" class="no-mostrar">
+          <img onclick="closePopDS()" src="../img/popDS.png" alt="">
+            </div>
+
+            <div id="popDS2" class="no-mostrar">
+              <img onclick="closePopDS2()" src="../img/popDS2.png" alt="">
+                </div>
+                <div id="popDS3" class="no-mostrar">
+                  <img onclick="closePopDS3()"  src="../img/popDS3.png" alt="">
+                    </div>  
+                    <div id="popDS4" class="no-mostrar">
+                      <img onclick="closePopDS4()" src="../img/popDS4.png" alt="">
+                        </div>
+
+
+        </div>     
+        </div>
+      </div>
+      <div class="col-4"></div>
+      </div>
+
+
+      <div class="row" style="position: relative;bottom: 7em;">
+        <div class="col-4"></div>
+        <div class="col-8">
+      <div class="comercioPregunta3">
+        <img src="../img/info2.svg" alt="">
+        
+        <div class="botonesInfo2"> <!-- DERECHOS HUMANOS -->
+        <img id="opciones1Comercio1" onclick="openDHpop4()"src="../img/DH4.png" alt="">
+        <img id="opciones1Comercio2" onclick="openDHpop3()"src="../img/DH3.png" alt=""> 
+        <img id="opciones1Comercio3" onclick="openDHpop2()" src="../img/DH2.png" alt="">
+        <img id="opciones1Comercio4" onclick="openDHpop()" src="../img/DH.png" alt="">
+
+
+        <!-- DERECHOS HUMANOS POPUPS -->  
+<div id="popDH0" class="no-mostrar">
+  <img onclick="closePopDH()" src="../img/popDH.png" alt="">
+    </div>
+    <div id="popDH2" class="no-mostrar">
+      <img onclick="closePopDH2()" src="../img/popDH2.png" alt="">
+        </div>
+        <div id="popDH3" class="no-mostrar">
+          <img onclick="closePopDH3()" src="../img/popDH3.png" alt="">
+            </div>
+            <div id="popDH4" class="no-mostrar">
+              <img onclick="closePopDH4()" src="../img/popDH4.png" alt="">
+                </div>
+
+      </div>
+
+      </div>
+       
+        
+        </div> 
+      
+      
+    </div>
+    <div class="row" style="position: relative;bottom: 17em;">
+      <div class="col-8">
+      <div class="comercioPregunta2">
+        <img src="../img/info3.svg" alt="">
+        <div class="botonesInfo3"> <!-- COOPERATIVISMO -->
+        <img id="opciones2Comercio1" onclick="openCOpop()"src="../img/CO.png" alt="">
+        <img id="opciones2Comercio2" onclick="openCOpop2()"src="../img/CO2.png" alt="">
+        <img id="opciones2Comercio3" onclick="openCOpop3()"src="../img/CO3.png" alt="">
+
+
+        <div id="popCO" class="no-mostrar">
+          <img onclick="closePopCO()" src="../img/popCO.png" alt="">
+            </div>
+            <div id="popCO2" class="no-mostrar">
+              <img onclick="closePopCO2()" src="../img/popCO2.png" alt="">
+                </div>
+                <div id="popCO3" class="no-mostrar">
+                  <img onclick="closePopCO3()" src="../img/popCO3.png" alt="">
+                    </div>
+        </div> 
+      </div>
+    </div>
+    
+    </div>
+
+<!-- POP UPS -->
+
+<!-- DESARROLLO SOSTENIBLE POPUPS -->
+
+  
+
+
+              
+<!-- COOPERATIVISMO POPUPS -->  
+
+    </div>
+    <!-- TIEMPO DE TAZAS CONSUMIDAS ACTUALIZABLES -->
+
+
+
+
+   
+
+	  
+	 
+</body>
+</html>

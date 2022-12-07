@@ -1,0 +1,768 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
+
+
+html{
+  background-color:#FFEDCB;
+}
+
+#fondo{
+  background-color: #FDE6D7;
+  margin: none;
+}
+
+h6, input,form{
+  font-size: 3.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h6{
+  font-family: 'Harmattan', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Harmattan', sans-serif;
+}
+
+.container1 input{
+  font-size: 1em;
+  width: 70%;
+  border-radius: 20px;
+  border: none;
+background-color: #FFEDCB;
+
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.formInside{
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.container1 button, .container3 button, .overlay button{
+ border-radius: 21px; 
+ width: 20%;
+ padding: 15px 5px;
+ font-size: large;
+ border: 0px ;
+ background-color: #512F07;
+}
+
+.container1 button{
+  margin-top: 5%;
+}
+
+span{
+  color: #FFFFFF;
+}
+
+
+#textLat0{
+  margin-left: 100px;
+  font-size: 4em;
+}
+
+#textLat{
+  margin-left: 200px;
+  font-size: 4em;
+}
+
+.segundosTazasConsumidas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.segundos{
+background-color: #F1C1A2;
+padding: 10%;
+margin-right: 5%;
+}
+
+#mapa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  height: 600px;
+}
+
+.mapa{
+  margin-top: 100px;
+}
+
+.mapa h2{
+position: absolute;
+margin-left: 30px;
+}
+
+.Xtazas{
+  background-color: #F1C1A2;
+  padding: 7%;
+  margin-right: 5%;
+}
+
+.tazaNro{
+  background-color: #F1C1A2;
+  padding: 5%;
+}
+
+.pregunta1{
+  padding-top: 5%;
+  display: block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Harmattan', sans-serif;
+  font-size: 3em;
+margin: 0%;
+}
+
+.paisesPorcentajes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.DatosTomados{
+  display: block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.popUp{
+  background-color: #FFEDCB;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+}
+
+.no-mostrar{
+  display: none;
+}
+
+.container3 h1{
+  font-size: 3.5em;
+}
+
+.container3 h1{
+  font-size: 3.5em;
+}
+
+
+#pantalla3{
+  background-color: #F9DFBD;
+}
+
+.container3 h1{
+  margin: none;
+}
+
+.numerosPorcentaje{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left:300px;
+  top: 660px;
+  gap: 210px;
+}
+
+.preg3raPantalla{
+  margin-top: 200px;
+  padding: 100px 0px;
+  background-color: #FFEDCB;
+}
+
+.preg3raPantalla h2{
+  font-weight: 500;
+}
+
+.container3 h3{
+  font-size: 1.5em;
+}
+
+.container3 h2{
+  font-size: 2em;
+}
+
+#pantalla4, #pantalla5, #pantalla6, #pantalla7, #pantalla8, #pantalla9, #pantalla14, #pantalla15, #pantalla16, #pantalla17, #pantalla18, #pantalla19, #pantalla20{
+  background-color: rgb(176, 227, 255);
+}
+
+
+.container4, .container6, .container7{
+  width: 100%;
+  height: 100%;
+}
+.container4 h1, .container5 h1, .container6 h1{
+text-align: center;
+font-size: 55px;
+padding-left: 10%;
+}
+
+#solcito{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+}
+
+#fondoArboles{
+  position: absolute;
+  width: 99%;
+  padding-top: 4%;
+  height: 68%;
+}
+
+#arboleda{
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0.01em;
+  right: 0px;
+}
+
+#circuPO1{
+  position: absolute;
+  top: 84%;
+  left: 13%;
+}
+
+#boton1defo{
+  position: relative;
+  right: 5%;
+  top:5.4em;  
+  height: 70%;
+}
+
+#motosierra{
+  position: relative;
+  left: 15%;
+  top: 10em;
+}
+
+#fondoTalado{
+  position: absolute;
+  width: 99%;
+  padding-top:24em;
+  height: 10.5em;
+}
+
+.clickSemillas{
+display: flex;
+flex-direction: row;
+position: relative;
+justify-content: center;
+align-items: center;
+top: 21em;
+width: 100%;
+gap:25%;
+
+}
+
+.circuloClick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boton2defo{
+  position: relative;
+  left:42em;
+  top: 17em;
+  height: 13em;
+}
+
+#motosierra2  {
+  position: relative;
+  left:57em;
+  top: 20em;
+  height: 12em;
+}
+
+#fondoTalado2{
+  position: absolute;
+width: 99%;
+padding-top: 17em;
+}
+
+#nube{
+  position: absolute;
+  left: 4em;
+  top: 0.8em;
+}
+
+.container7 h3{
+  position: absolute;
+  top: 8.5em;
+  left: 6em;
+  width: 20%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+}
+ #botonConectaPantallas{
+  position: relative;
+  display: flex;
+  padding-top: 5%;
+  padding-left:50% ;
+  font-size: 24px;
+}
+
+.popUpDefo, .popUpOrg{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 6em;
+  bottom: 15em;
+  border-radius: 21px;
+  padding: 1% 2%;
+  background-color: #FEEFDC;
+}
+
+.semillas{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 37%;
+  left: 38%;
+  gap: 120%;
+}
+
+#semi3{
+  margin-left: 40%;
+}
+
+.popUpDefo h3, .popUpOrg h3{
+  font-weight:lighter;
+  font-size: 24px;
+}
+
+.no-mostrar{
+  display: none;
+}
+
+.container8 h3{
+  position: absolute;
+  top: 5.5em;
+  left: 6em;
+  width: 20%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+#nube2{
+  position: absolute;
+  left: 4em;
+  bottom:17em;
+}
+
+#fondoFrutos{
+  position: absolute;
+width: 99%;
+padding-top: 22em;
+}
+
+ #fondoFrutos2{
+  position: absolute;
+  width: 99%;
+  padding-top:16.5em;
+  height: 18em;
+} 
+
+#botonGuante{
+  position: absolute;
+  padding-top:21em;
+  height: 12em;
+  left: 8em;
+}
+
+.container9 h1{
+  text-align: center;
+  font-size: 55px;
+  margin-left: 2.6em;
+}
+
+#bolsaFrutos{
+  position: relative;
+  left: 73.8em;
+  top: 20.4em;
+}
+
+.popUpFrutos h3{ 
+position: relative;
+left: 53em;
+top: 8em;
+width: 5em;
+font-size:24px;
+}
+
+#secarGranos{
+  position: absolute;
+  width: 99%;
+top: 8.4em;
+}
+
+.pagina2 h1, .container10 h1, .container11 h1, .container12 h1, .container14 h1, .container15 h1, .container16 h1, .container17 h1, .container18 h1, .container19 h1, .container20 h1{
+font-size: 55px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+
+#circuGranos{
+  position: relative;
+  left: 68.3em;
+  top: 4.2em;
+  height:11em;
+}
+
+#tuesteGranos{
+  position: absolute;
+  width: 99%;
+top:9em;
+height: 80%;
+}
+
+#circuGranos2{
+  position: relative;
+  left: 39.7em;
+  top: 13em;
+  height:5em;
+}
+
+#tuesteGranos2{
+  position: absolute;
+  width: 99%;
+  bottom:0.2em;
+height: 90%;
+}
+
+#circuGranos3{
+  background-color: none;
+  position: relative;
+  left: 23.9em;
+  bottom: 0.5em;
+  height:2em;
+}
+
+/* CSS LUCHO*/
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+
+}
+
+
+/* CSS LUCHO*/
+
+.container13 h1{
+  font-size: 55px;
+  padding-left: 5%;
+}
+
+#etiquetaCJ{
+position: relative;
+left: 47%;
+top: 3.8em;
+}
+
+.overlay{
+  background: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popUpEtiquetaConvencional, .popUpEtiquetaOrganico, .popCafeNormal, .popCafeCJ{
+  background-color: #FEEFDC;
+  border: 5px solid #BCB1A3;
+  border-radius: 47px;
+  width: 80%;
+display: flex;
+flex-direction: column ;
+justify-content: center;
+align-items: center;
+}
+
+.popUpEtiquetaConvencional h3{
+  font-size: 36px;
+  font-weight: lighter;
+  margin-bottom:30px;
+}
+
+.popUpEtiquetaConvencional h1{
+  font-size: 48px;
+  margin: 0px;
+ }
+
+ .imagenesNormas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+ }
+
+ .imagenesNormas img{
+  height: 220px;
+ }
+
+ .desaSos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .desaSos h4{
+font-size: 28px;
+ }
+
+ .popUpEtiquetaConvencional button, .popUpEtiquetaOrganico button{
+  margin-bottom: 2%;
+ }
+
+ .no-mostrar{
+  display: none;
+ }
+
+ a{
+  color: #FFFFFF;
+  text-decoration:none;
+ }
+
+ #ferti{
+  position: absolute;
+  width: 99%;
+  height: 42.5em;
+ }
+ 
+.tierra{
+  padding-top: 32%;
+  position: relative;
+  right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  float: bottom;
+  gap: 22%;
+}
+
+.gusanos{
+  position: relative;
+  padding-top: 29%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  right: 3%;
+  gap: 16%;
+  margin-bottom: none;
+  padding-bottom: none;
+}
+
+.botones{
+  position: relative;
+}
+
+
+#fondoFinal{
+  position: absolute;
+  width: 99%;
+
+}
+.elegir{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 10em;
+  gap: 6.5em;
+  left: 53em;
+}
+
+.popCafeNormal, .popCafeCJ{
+  padding-top:5%;
+}
+
+.popCafeNormal a, .popCafeCJ a{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#pantalla15{
+  background-image:    url(../img/fertilizadaOrg.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.container15{
+  width: 100%;
+  height: 100%;
+}
+
+#gusanoM, #tierraM{
+padding-left: 3%;
+}
+
+#cosechaOrg{
+  position: absolute;
+  width: 99%;
+  height: 42.5em;
+ }
+
+ #botonPO4{
+  position: relative;
+  left: 52%;
+  top: 21em;
+}
+
+#hoverBolsa{
+  position: relative;
+  height: 8em;
+  bottom: 8em;
+  left: 54%;
+} 
+
+#popOrg{
+  position: relative;
+  bottom: 40em;
+}
+
+#pantalla17, #pantalla18{
+  background-image:    url(../img/cosechaOrg.png);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    width: 100%;
+    height: 100%;    
+}
+
+#boton17{
+position: relative;
+left: 52%;
+top: 27em;
+}
+
+.tipitos{
+position: relative;
+padding-top: 29%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+right: 12%;
+gap: 16%;
+margin-bottom: none;
+padding-bottom: none;	
+}
+
+#tipo{
+height:10em;
+}
+
+#pantalla19, #pantalla20{
+background-image:    url(../img/secaOrg.png);
+background-size:     cover;                      /* <------ */
+background-repeat:   no-repeat;
+background-position: center center; 
+width: 100%;
+height: 100%;   
+}
+
+#boton19, #boton20{
+position: relative;
+left: 75%;
+height: 10em;
+top: 17em;
+}
+
+#gifGas{
+  position: absolute;
+  opacity: 25%;
+  left: 10%;
+  top: 52%;
+  width: 1000px;
+  height: 320px;
+}
+
+.comercioPreguntaBolsas{
+background-image: url(../img/bolsasbien.gif);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}
+
+#cartelorga{
+  position: absolute;
+  right: 3em;
+  top: 45%;
+}
+
+#tirarpesticida{
+ position: absolute;
+ width: 100%;
+ right: 0;
+ padding: 0;
+ height: 95%;
+}
+
+#botonPesti{
+  position: absolute;
+  left: 70%;
+  top: 65%;
+}
+
+#cartelitoHover {
+  position: relative;
+  right:0;
+  left: 20px;
+}
+
+#paDer {
+  position: relative;
+  left: 25em;
+  top: 11em;
+}
+
+#cartel{
+  position: absolute;
+  top: 20%;
+}

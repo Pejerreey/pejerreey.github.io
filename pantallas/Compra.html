@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html id="pantalla10" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="../js/index.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recoger frutos</title>
+</head>
+<body >
+  <div class="container9 row">
+
+    
+    <img id="fondoFinal" src="../img/elegir.png" alt="">
+    <h1 style ="position:absolute;bottom:80%; ">HORA DE ELEGIR</h1>
+    <div class="elegir">
+      <img onclick="abrirPopCN()" src="../img/cafeNormal.svg" alt="">
+      <img onclick="abrirPopCJ()" src="../img/cafeCJ.svg" alt="">
+    </div>
+    
+  
+<!-- POP UPSSS -->
+    <div id="cafeNormal" class="overlay no-mostrar">
+      <img id="cruzPop" onclick="closePop()" src="../img/cruz.png" alt="">
+    <div class="popCafeNormal">
+      
+    <img src="../img/cafeNormal.png" alt="">
+    <a href="Carrito.html"><img src="../img/botonCarrito.svg" alt=""></a>
+    </div>
+
+    </div>
+
+    <div id="cafeCJ" class="overlay no-mostrar">
+      <img id="cruzPop" onclick="closePop2()" src="../img/cruz.png" alt="">
+      <div class="popCafeCJ">
+      <img src="../img/cafeCJ.png" alt="">
+      <a href="CarritoJusto.html"><img src="../img/botonCarrito.svg" alt=""></a>
+      </div>
+  
+    </div>
+  </div> 
+</body>
+</html>

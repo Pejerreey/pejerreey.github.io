@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiqueta tu producto SI</title>
+</head>
+<body>
+  <div class="container13 col-12">
+    <h1>ETIQUETA TU PRODUCTO</h1>
+    <img id="tuesteGranos2Eti" src="../img/etiqueta.png" alt="">
+    <!-- <img id="circuGranos3" src="../img/circuSemillas.svg" alt="">  -->
+    <input onclick="abrirEtiquetaSI()" id="etiquetaCJ" type="image" src="../img/fairtrade2.svg">
+  </div>
+
+
+  <div id="etiSi" class="overlay no-mostrar">
+    <img id="cruzPopEtiSi" onclick="closePop4()" src="../img/cruz.png" alt="">
+    <div class="popUpEtiquetaOrganico">
+      <h1>¡Al usar esta etiqueta!</h1>
+      <h3>Tu producto cumple con las normas de <strong>Comercio Justo</strong>.</h3>
+
+      <div class="imagenesNormas">
+        <div class="desaSos">
+          <img src="../img/desaSos.png" alt="">
+           <h4><strong>Desarrollo sostenible</strong></h4>
+        </div>  
+        <div class="desaSos">
+        <img src="../img/coop.png" alt="">
+        <h4>Cooperativismo</h4>
+        </div>
+        <div class="desaSos">
+        <img src="../img/derHu.png" alt="">
+        <h4>Derechos Humanos</h4>
+        </div>
+      </div>
+      
+      <div class="botonesEti">
+      <button class="btnEti "><a href="../pantallas/Deforestacion1Conv.html"><span id="textWhite"><strong>Proceso Convencional</strong></span></a></button>
+      <button ><a href="ImperioBeneficio.html"><span id="textWhite"><strong>Aprende más</strong></span></a></button>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

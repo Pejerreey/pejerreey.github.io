@@ -1,0 +1,1007 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
+
+
+html{
+  background-color:#FFEDCB;
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.numero1{
+  position: relative;
+    left: 32.5%;
+    bottom: 3em;
+    font-size: 3em;
+    font-weight: 1000;
+}
+
+.numero2{
+  position:relative;
+}
+
+.numero3{
+  position: relative;
+    left: 38.5%;
+    bottom: 3em;
+    font-size: 3em;
+    font-weight: 1000;
+}
+.infoTaza{
+
+
+}
+
+#fondo{
+  background-color: #FDE6D7;
+  margin: none;
+}
+
+h6, input,form{
+  font-size: 3.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h6{
+  font-family: 'Harmattan', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Harmattan', sans-serif;
+}
+
+.container1 input{
+  font-size: 1em;
+  width: 70%;
+  border-radius: 20px;
+  border: none;
+background-color: #FFEDCB;
+
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.formInside{
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.container1 button, .container3 button, .container button{
+ border-radius: 21px; 
+ width: 20%;
+ padding: 15px 5px;
+ font-size: large;
+ border: 0px ;
+ background-color: #512F07;
+}
+
+.overlay button{
+  border-radius: 21px; 
+  padding: 15px 10px;
+  font-size: large;
+  border: 0px ;
+  background-color: #512F07;
+}
+
+.container1 button{
+  margin-top: 5%;
+  margin-left: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textWhite{
+  color: #FFFFFF;
+}
+
+
+  .pagina2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.imperioFairtrade h1{
+ justify-content: center;
+ text-align: center;
+}
+
+.comercioJusto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#textLat0{
+  margin-left: 100px;
+  font-size: 4em;
+}
+
+#textLat{
+  margin-left: 200px;
+  font-size: 4em;
+}
+
+.segundosTazasConsumidas{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.segundos{
+padding: 2% 0%;
+margin-right: 5%;
+}
+
+#gifReloj{
+  width: 300px;
+  height: 300px;
+}
+
+#mapa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  height: 600px;
+}
+
+.mapa{
+  margin-top: 100px;
+}
+
+.mapa h2{
+position: absolute;
+margin-left: 30px;
+}
+
+.Xtazas{
+  background-color: #F1C1A2;
+  padding: 7%;
+  margin-right: 5%;
+}
+
+.tazaNro{
+  background-color: #F1C1A2;
+  padding: 5%;
+}
+
+.pregunta1{
+  padding-top: 5%;
+  display: block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Harmattan', sans-serif;
+  font-size: 3em;
+margin: 0%;
+}
+
+.paisesPorcentajes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.paisesPorcentajes button{
+ background-color:transparent;
+ border: none;
+}
+
+.DatosTomados{
+  display: block;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.popUp{
+  position: absolute;
+  background-color: #FFEDCB;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  top:1200px;
+}
+
+.popUp h4{
+  width: 60%;
+  font-size: 30px;
+}
+
+.no-mostrar{
+  display: none;
+}
+
+.container3 h1{
+  font-size: 3.5em;
+  text-align: center;
+  margin: none;
+}
+
+.container3 h1{
+  font-size: 3.5em;
+}
+
+
+#pantalla3{
+  background-color: #F9DFBD;
+}
+
+.container3 h1{
+  margin: none;
+}
+
+.numerosPorcentaje{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left:300px;
+  top: 660px;
+  gap: 210px;
+}
+
+.preg3raPantalla{
+  margin-top: 200px;
+  padding: 100px 0px;
+  background-color: #FFEDCB;
+  text-align: center;
+}
+
+.preg3raPantalla h2{
+  font-weight: 500;
+}
+
+.container3 h3{
+  font-size: 1.5em;
+  text-align: center;
+  margin: none;
+}
+
+.container3 h2{
+  font-size: 2em;
+}
+
+#pantalla4, #pantalla5, #pantalla6, #pantalla7, #pantalla8, #pantalla9, #pantalla14, #pantalla15, #pantalla16, #pantalla17, #pantalla18, #pantalla19, #pantalla20{
+  background-color: rgb(176, 227, 255);
+}
+
+
+.container4, .container6, .container7{
+  width: 100%;
+  height: 100%;
+}
+.container4 h1, .container5 h1, .container6 h1{
+text-align: center;
+font-size: 55px;
+padding-left: 10%;
+}
+
+#solcito{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+}
+
+#fondoArboles{
+  position: absolute;
+  width: 100%;
+ padding: 0;
+  height: 75%;
+  right: 0;
+}
+
+#cartelConv{
+  position: absolute;
+  right: 70%;
+  margin-top: 8.5%;
+}
+
+#boton1defo{
+  position: relative;
+  right: 5%;
+  top:5.4em;  
+  height: 70%;
+}
+
+#motosierra{
+  position: relative;
+  left: 15%;
+  top: 10em;
+}
+
+#fondoTalado{
+  position: absolute;
+  width: 100%;
+  padding: 0%;
+  right: 0;
+  top: 77%;
+
+}
+
+.clickSemillas{
+display: flex;
+flex-direction: row;
+position: relative;
+justify-content: center;
+align-items: center;
+top: 21em;
+width: 100%;
+gap:25%;
+
+}
+
+.circuloClick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boton2defo{
+  position: relative;
+  left:42em;
+  top: 17em;
+  height: 13em;
+}
+
+#motosierra2  {
+  position: relative;
+  left:57em;
+  top: 20em;
+  height: 12em;
+}
+
+#fondoTalado2{
+  position: absolute;
+width: 100%;
+right: 0;
+padding: 0%;
+padding-top: 24.5%;
+}
+
+#nube{
+  position: absolute;
+  left: 4em;
+  top: 0.8em;
+}
+
+.container7 h3{
+  position: absolute;
+  top: 8.5em;
+  left: 6em;
+  width: 20%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+}
+ #botonConectaPantallas{
+  position: relative;
+  display: flex;
+  padding-top: 5%;
+  padding-left:50% ;
+  font-size: 24px;
+}
+
+.popUpDefo, .popUpOrg{
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 6em;
+  bottom: 15em;
+  border-radius: 21px;
+  padding: 1% 2%;
+  background-color: #FEEFDC;
+}
+
+
+.popUpDefo h3, .popUpOrg h3{
+  font-weight:lighter;
+  font-size: 24px;
+}
+
+.no-mostrar{
+  display: none;
+}
+
+.container8 h3{
+  position: absolute;
+  top: 5.5em;
+  left: 6em;
+  width: 20%;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+#nube2{
+  position: absolute;
+  left: 4em;
+  bottom:17em;
+}
+
+#fondoFrutos{
+  position: absolute;
+width:100%;
+padding: 0;
+right: 0;
+padding-top: 30% ;
+}
+
+ #fondoFrutos2{
+  position: absolute;
+  width: 99%;
+  padding-top:16.5em;
+  height: 18em;
+} 
+
+#botonGuante{
+  position: absolute;
+  padding-top:21em;
+  height: 12em;
+  left: 8em;
+}
+
+.container9 h1{
+  text-align: center;
+  font-size: 55px;
+  margin-left: 2.6em;
+}
+
+#bolsaFrutos{
+  position: relative;
+  left: 73.8em;
+  top: 20.4em;
+}
+
+.popUpFrutos h3{ 
+position: relative;
+left: 53em;
+top: 8em;
+width: 5em;
+font-size:24px;
+}
+
+#secarGranos{
+  position: absolute;
+  width: 99%;
+top: 8.4em;
+}
+
+.pagina2 h1, .container10 h1, .container11 h1, .container12 h1, .container14 h1, .container15 h1, .container16 h1, .container17 h1, .container18 h1, .container19 h1, .container20 h1, .containerFinal2 h1, .containerFinal h1{
+font-size: 55px;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
+
+#circuGranos{
+  position: relative;
+  left: 68.3em;
+  top: 4.2em;
+  height:11em;
+}
+
+#tuesteGranos{
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  height: 80%;
+  bottom: 0.1em;
+  right: 0px;
+}
+
+#circuGranos2{
+  position: relative;
+  left: 42%;
+  padding-top:13.5%;
+  height:290px;
+}
+
+#tuesteGranos2{
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0.01em;
+  right: 0px;
+}
+
+#tuesteGranos2Eti{
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0.01em;
+  right: 0px;
+}
+
+#circuGranos3{
+  position: relative;
+  left: 88%;
+  bottom: 1em;
+  height:2em;
+}
+
+/* CSS LUCHO*/
+
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+
+}
+
+
+/* CSS LUCHO*/
+
+.container13 h1{
+  font-size: 55px;
+  padding-left: 5%;
+}
+
+#etiquetaCJ{
+position: relative;
+left: 47%;
+padding-top: 10%;
+}
+
+.overlay{
+  background: rgba(0, 0, 0, .7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popUpEtiquetaConvencional, .popUpEtiquetaOrganico, .popCafeNormal, .popCafeCJ{
+  background-color: #FEEFDC;
+  border: 5px solid #BCB1A3;
+  border-radius: 47px;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  padding: 2%  10%;
+}
+
+.popUpEtiquetaConvencional h3, .popUpEtiquetaOrganico h3{
+  font-size: 36px;
+  font-weight: lighter;
+  margin-bottom:30px;
+}
+
+
+.popUpEtiquetaConvencional h1, .popUpEtiquetaOrganico h1{
+  font-size: 48px;
+  margin: 0px;
+ }
+
+ .imagenesNormas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+ }
+
+ .imagenesNormas img{
+  height: 220px;
+ }
+
+ .desaSos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .desaSos h4{
+font-size: 28px;
+ }
+
+ .popUpEtiquetaConvencional button, .popUpEtiquetaOrganico button{
+
+  margin-bottom: 2%;
+ }
+
+ .no-mostrar{
+  display: none;
+ }
+
+ a{
+  color: #FFFFFF;
+  text-decoration:none;
+ }
+
+ #ferti{
+  position: absolute;
+  width: 100%;
+  height: 96%;
+  right: 0%;
+  padding: 0%;
+ }
+
+ #fertiNatu{
+  position: absolute;
+  float: bottom;
+  bottom: 0.5%;
+  left: 55%;
+ }
+ 
+.tierra{
+  padding-top: 32%;
+  position: relative;
+  right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  float: bottom;
+  gap: 22%;
+}
+
+.gusanos{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  right: 3%;
+  gap: 16%;
+  margin-bottom: none;
+  padding-bottom: none;
+  top: 80%;
+}
+
+.botones{
+  position: relative;
+}
+
+
+#fondoFinal{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 90%;
+  bottom: 0.01em;
+  right: 0px;
+
+}
+.elegir{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding-top: 7%;
+  gap: 6.5em;
+  padding-left: 56%;
+  width: 90%;
+}
+
+.popCafeNormal, .popCafeCJ{
+  padding-top:5%;
+}
+
+.popCafeNormal a, .popCafeCJ a{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#pantalla15{
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  right: 0%;
+  padding: 0%;
+}
+
+.container15{
+  width: 100%;
+  height: 100%;
+}
+
+#gusanoM, #tierraM{
+padding-left: 3%;
+}
+
+#cosechaOrg{
+  position: absolute;
+  width: 100%;
+  right: 0;
+  height: 94%;
+  padding: 0%;
+ }
+
+ #botonPO4{
+  position: relative;
+  left: 52%;
+  top: 21em;
+}
+
+#hoverBolsa{
+  position: absolute;
+  height:35%;
+  top: 60%;
+  left: 48%;
+} 
+
+#popOrg{
+  position: absolute;
+  bottom: 40%;
+}
+
+#fondoPantalla17, #fondoPantalla18{
+  position: absolute;
+  width: 100%;
+  right: 0;
+  height: 94%;
+  padding: 0%;
+}
+
+#botonPrima1{
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+}
+
+#botonPrima2{
+  position: absolute;
+  left: 62%;
+  bottom: 5%;
+}
+
+#botonPrima3{
+  position: absolute;
+  left: 40%;
+  top: 105%;
+}
+
+#boton17{
+position: relative;
+left: 52%;
+top: 27em;
+}
+
+.tipitos{
+position: relative;
+padding-top: 24%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+right: 12%;
+gap: 16%;
+margin-bottom: none;
+padding-bottom: none;	
+}
+
+#tipo{
+height:10em;
+}
+
+#fondoPantalla19, #fondoPantalla20{
+  position: absolute;
+width: 100%;
+height: 94%;   
+right: 0;
+padding: 0;
+}
+
+#boton19, #boton20{
+position: relative;
+left: 75%;
+height: 10em;
+top: 17em;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.paisesPorcentajes2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25%;
+}
+
+#finalOrg{
+  background-image: url(../img/FINALo8.png);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+}
+
+#finalConv{
+  background-image: url(../img/FINAL5.png);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+}
+
+#botonesEti{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
+  width: 100%;
+}
+
+.btnEti{
+  margin-right: 30px;
+}
+
+.animacionOrganica{
+width: 100%;
+height:98vh;
+bottom: 0.1%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+animation: achicarse 20s linear both;
+}
+
+@keyframes achicarse{
+  0% {background-image: url(../img/FINALo1.png);}
+  15%{background-image: url(../img/FINALo2.png);}
+  30%{background-image: url(../img/FINALo3.png);}
+  45%{background-image: url(../img/FINALo4.png);}
+  60%{background-image: url(../img/FINALo5.png);}
+  75%{background-image: url(../img/FINALo6.png);}
+  90%{background-image: url(../img/FINALo7.png);}
+  100%{background-image: url(../img/FINALo7.png);}
+}
+
+.animacionConv{
+  width: 100%;
+height:98vh;
+animation: conv 20s linear both;
+}
+
+@keyframes conv{
+  0% {background-image: url(../img/FINAL1.png);}
+  25% {background-image: url(../img/FINAL1.png);}
+  50%{background-image: url(../img/FINAL2.png);}
+  75%{background-image: url(../img/FINAL3.png);}
+  100%{background-image: url(../img/FINAL4.png);}
+  /*100%{background-image: url(../img/FINAL5.png);}*/
+}
+
+#carroPic{
+  position: absolute;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0.01em;
+  right: 0px;
+}
+
+#cruzPop{
+  height: auto;
+  margin-left: 64%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+  width: 2%;
+  filter: invert(100%);
+}
+
+#cruzPopEtiNo{
+  height: auto;
+  margin-left: 90%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+  width: 2%;
+  filter: invert(100%);
+}
+
+#cruzPopEtiSi{
+  height: auto;
+  margin-left: 70%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  float: right;
+  width: 2%;
+  filter: invert(100%);
+}
+
+#btnReinicio{
+  position: relative;
+  left: 8%;
+}
+
+#btnReinicio2{
+  position: relative;
+  left: 70%;
+}
+
+#bolsasgif{
+  position: relative;
+  /*bottom: 40%;
+  padding: 0 5% 0 0;*/
+  left: 20%;
+  width:60%;
+  height: 60%;
+}
+
+#iraCarrito{
+  position: absolute;
+  left: 76%;
+  top: 136%;
+}
+
+#container1{
+  padding: 5% 0 5% 0;
+  margin-bottom: 0 0 10% 0;
+  }
+  #container2{
+  padding: 2% 13% 5% 0;
+  margin-bottom: 0 0 10% 0;
+  }
+  #textoproceso{
+  padding: 1% 0 2% 0;
+  
+    position: relative;
+  }
+  #graficoverde{
+  margin: 0 3% 0 22%;
+  }

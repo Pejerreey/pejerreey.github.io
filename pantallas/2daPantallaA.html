@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script>
+    // DISPLAY DEL INPUT
+    window.onload = function(){
+      document.getElementById("division").innerHTML = parseInt(localStorage.getItem("conteo")) / 17.5
+      document.getElementById("numberInput").innerText = localStorage.getItem("conteo")
+      
+    }
+  
+    // DISPLAY DEL RELOJ
+      var dataDisplay = document.getElementById("relojDiv")
+      localStorage.setItem("reloj", 0);
+      localStorage.setItem("tazitas", 0);
+
+  
+      function refreshData() {
+        var conteo = localStorage.getItem("reloj")
+        var res = localStorage.setItem("reloj", parseInt(conteo) + 1);
+        document.getElementById("relojDiv").innerHTML = conteo;
+      }
+
+      function tazasXseg() {
+        var conteo = localStorage.getItem("tazitas")
+        var res = localStorage.setItem("tazitas", parseInt(conteo) + 1);
+        document.getElementById("tazitasDiv").innerHTML = conteo;
+      }
+
+
+      setInterval(refreshData, 1000);
+      setInterval(tazasXseg, 100);
+    </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiempo tazas consumidas</title>
+</head>
+<body id="fondo">
+  <div class="container">
+    <div class="pagina2">
+      <img src="../img/02.png" alt="">
+      <div class="separarTitulo">
+        <h1 id="textLat0">AMÉRICA</h1>
+        <h1 id="textLat">LATINA</h1>
+      </div>
+      <div class="segundos">
+        <h5 style="margin-left: 45%; left: 2.5em;
+        top: 2.5em;
+        position: relative; font-size:2em;" id="relojDiv"></h5><h1 style="font-size:2em;">segundos</h1>
+        <!-- <p id="modificarPos">1</p> <p id="modificarPos">5</p> <p id="modificarPos">10</p> <p id="modificarPos">15</p> <p id="modificarPos">20</p> <p id="modificarPos">25</p> <p id="modificarPos">30</p> <p id="modificarPos">35</p>-->
+        <img id="gifReloj" style="position:relative; bottom:3.5em;" src="../img/relojgif.gif" alt="">
+        
+      </div>
+    </div>
+    <!-- TIEMPO DE TAZAS CONSUMIDAS ACTUALIZABLES -->
+    <div class="segundosTazasConsumidas">
+      <div class="Xtazas">
+        <img src="../img/03.svg" alt="">
+        <p><span class="numero1" id="numberInput"></span><p style="
+          position: relative;
+          left: 2em; font-size: 1.1em;">en <span class="numero2"  id="division"></span> segundos</p>
+      </div>
+      
+      <div class="tazaNro">
+        <img style ="position: relative;left: 13%;" src="../img/03.svg" alt="">
+       <h5 class="numero3" id="tazitasDiv"></h5>
+       <p>En este momento se estan produciendo</p>
+       
+       
+       &nbsp; 
+       <br>
+        
+       <br></br>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-12">
+    <h2 style="text-align:center; font-size:38px;">De los 51 países que producen café en el mundo, 11 son Latinoamericanos.</h2>
+  </div>
+    <div class="mapa">
+      
+      <img onmouseover="openPopLat()" id="mapa" src="../img/map.svg" alt="">
+      <img style="padding-left:5%;" src="../img/toneladas.png" alt="">
+      <h2 style="padding-left:4%;">Toneladas</h2>
+      
+      <!-- POP UP LATAM -->
+      <div id="popLat" class="popUp no-mostrar">
+        <img src="../img/013.svg" alt="">
+        <h4>El 60% de la producción mundial de café se genera Latinoamérica</h4>
+      </div>
+
+    </div>
+  </div>
+  <div class="containerr" style="padding-right:10%; padding-left: 10%;">
+    <div class="pregunta1">
+      <h1>¿Qué país de Latinoamérica crees que es el mayor productor de café?</h1>
+      <div class="col-12">
+      <img src="../img/04.svg" alt="">
+    </div>
+      <h5><span id="totalPorcentaje">100</span>%</h5>
+
+      <div class="paisesPorcentajes">
+        <div class="col-3">
+        <button onmousedown="btnClick()"><img src="../img/05.svg" width="250px" height="250px" alt=""></div></button> 
+        <div class="col-3">
+        <button onmousedown="btnClick2()"><img src="../img/06.svg" width="250px" height="250px" alt=""></div></button> 
+        <div class="col-3">
+         <button onmousedown="btnClick3()"><img src="../img/07.svg" width="250px" height="250px" alt=""></div></button> 
+        <div class="col-3">
+         <button onmousedown="btnClick4()"><img src="../img/08.svg" width="250px" height="250px" alt=""></div></button> 
+      </div>
+
+      <div class="paisesPorcentajes2">
+        <h5><span id="brasil">0</span>%</h5>
+        <h5><span id="col">0</span>%</h5>
+        <h5><span id="mex">0</span>%</h5>
+        <h5><span id="per">0</span>%</h5>
+        
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
