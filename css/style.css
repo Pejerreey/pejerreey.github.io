@@ -1,0 +1,411 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+.container {
+    position: relative;
+
+}
+
+.divisor{
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 75px;
+}
+
+
+
+
+
+.text-block {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row .col.s8a {
+    width: 46.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+    margin-top: -25px;
+}
+
+.row .col.s2a {
+    width: 22.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+
+h6 {
+    font-weight:500;
+}
+    h6.font {
+    font-size:18px;
+    }
+h4{
+    color:deepskyblue;
+    font-weight: 700;
+
+}
+hr.header {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+    width: 53%;
+    border-top: 2px solid #bbb;
+}
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+    width: 60%;
+}
+.navbar2 {
+    overflow: hidden;
+
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+.row .autor {
+    width: 46.6666666667%;
+
+    left: auto;
+    right: auto;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: deepskyblue;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.fondo-popup{  
+
+  display:none;
+}
+
+h4.barra{
+    color:red;
+    margin-right:400px;
+
+}
+
+h7 {
+    font-size:20px;
+    font-weight:700;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+    img.navbar {
+        width: 100%;
+    }
+
+
+
+p {
+  line-height: 2rem;
+}
+
+p2 {
+    line-height: 1rem;
+    font-weight:600;
+}
+
+
+.fondo-popup {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+
+
+
+
+
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+
+
+/* Apartado imagenes con hoover */
+
+
+    div.box {
+        margin-left:20px;
+    }
+
+.image {
+    position: relative;
+    display: inline;
+}
+
+.black-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+
+
+/* Apartado columnas pples */
+.column {
+    float: left;
+    /* Apartado columnas pples */
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*comentarios */
+#comentarios {
+    width: 65%;
+    margin-left: auto ;
+    margin-right:auto;
+    /* left: auto;
+    right: auto; 
+    padding: 325px;*/
+  
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+  }
+  
+  .cajaC {
+    height:auto;
+  
+  }
+  #comentarito{
+    border-style: solid;
+    border-width:0 0 2px 0;
+    border-color: lightgrey;
+  }
+  .com {
+  margin-left: auto ;
+  margin-right:auto;
+  border-style: solid;
+  border-width: 5px;
+  border-width: 3px;
+  padding: 20px;
+  border-radius: 20px;
+  /*padding-right: 92px;*/
+  border-color: lightgrey;
+  }
+  
+  #numcomentarios {
+  background-color: black;
+  padding: 8px;
+  color: white;
+  }
+  
+  #contribucion {
+   
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding-top: 10px;
+   padding-bottom: 20px;
+   border-style: solid;
+  
+  border-width: 2px;
+  border-radius: 10px;
+  
+  }
+  .Contribuciones {
+    border-bottom-width: 5px;
+  border-bottom-style:  solid;
+    border-bottom-color: red;
+  }
+  
+  #btnGuardarComentario {
+    width:30%;
+    margin-left: auto ;
+    margin-right:auto;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   border-color: #31A6EB;
+    border-radius: 20px;
+   background: #31A6EB;  
+  
+  }
+  
+  #btnGuardarComentario:hover,
+  #btnGuardarComentario:active {
+    background-color: #0c99eb;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+  
+  .coment{
+    color: black;
+  
+    font-size: 20px;
+  }
+  
+  .personas {
+    padding-bottom: 15px;
+    border-bottom-width: 2px; 
+    border-bottom-style:  solid;
+      border-bottom-color: lightgrey;
+  
+  }
+  
+  
+  .respetar{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+   height: 20px;
+  }
+  #contribuir{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+  }
+  
+  .contribuir p{
+    margin:0px;
+  }
+  #tiempo{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+  
+  }
+  
+  
+  #hector {
+  font-weight: bold;
+  font-size: 22px;
+  
+  }
+  .burbuja{
+  margin: 10px;
+    border-radius: 20px 20px 20px 0;
+    background-color: black;
+    width: 300px;
+    position: fixed;
+    
+  
+  }
+  
+  form{display: flex;
+    flex-direction: column;
+  
+  }
+  .mostrar{
+    display: block;
+  }
+  .no-mostrar{
+    display: none;
+  }
+  
+  .alinearItemsComentario, .headerc{
+  display: flex;
+  flex-direction: row;
+  
+  }
+  
+  .respetar:hover,
+  .respetar:active, .contribuir:hover, .contribuir:active {
+    background-color: #f4f4f4;
+  font-weight: bold;
+  }
+  .alinearItemsComentario div{
+  margin: 10px;
+  
+  }
+  .alinearItemsComentario div img{
+  width: 20px; 
+  margin: 0 5px;
+  
+  }
+  .tiempo{
+  padding-left: 10px;
+  }
